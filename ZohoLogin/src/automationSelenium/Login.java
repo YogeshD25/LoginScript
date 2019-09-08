@@ -27,11 +27,11 @@ public class Login {
     
     driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     WebElement email = driver.findElement(By.name("lid"));
-    email.sendKeys("yogesh.dande@neml.in");
+    email.sendKeys("emailid");
     
     driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     WebElement pass = driver.findElement(By.name("pwd"));
-    pass.sendKeys("Skipper99#");
+    pass.sendKeys("Password");
     
     driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     
